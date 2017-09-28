@@ -7,6 +7,13 @@
   "author": "Orlando Hohmeier",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
   "dependencies": {
     "gherkin": "^4.1.3"
   }
