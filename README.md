@@ -2,7 +2,6 @@
 
 > An extended _gherkin_ parser to extract test scenarios from annotated documentations.
 
-
 ## Syntax
 
 ### Example
