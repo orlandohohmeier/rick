@@ -1,0 +1,17 @@
+{
+  "name": "rick",
+  "version": "0.0.0",
+  "description": "Extended gherkin parser to extract test scenarios from annotated documentations.",
+  "main": "index.js",
+  "repository": "git@github.com:orlandohohmeier/rick.git",
+  "author": "Orlando Hohmeier",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
