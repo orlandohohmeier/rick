@@ -1,0 +1,13 @@
+{
+  "name": "rick",
+  "version": "0.0.0",
+  "description": "Extended gherkin parser to extract test scenarios from annotated documentations.",
+  "main": "index.js",
+  "repository": "git@github.com:orlandohohmeier/rick.git",
+  "author": "Orlando Hohmeier",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "gherkin": "^4.1.3"
+  }
+}
