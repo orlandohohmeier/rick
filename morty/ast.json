@@ -1,0 +1,59 @@
+{
+  "type": "PickleDocument",
+  "feature": {
+    "type": "Feature",
+    "tags": [],
+    "location": {
+      "line": 1,
+      "column": 1
+    },
+    "language": "en",
+    "keyword": "Feature",
+    "name": "Quick Start",
+    "children": [
+      {
+        "type": "Scenario",
+        "tags": [],
+        "location": {
+          "line": 3,
+          "column": 1
+        },
+        "keyword": "Scenario",
+        "name": "Install Kafka Cluster",
+        "input": {
+          "command": "dcos package install kafka --yes"
+        },
+        "steps": [
+          {
+            "type": "Step",
+            "location": {
+              "line": 4,
+              "column": 1
+            },
+            "keyword": "Given ",
+            "text": "that you've installed the dcos cli"
+          },
+          {
+            "type": "Step",
+            "location": {
+              "line": 5,
+              "column": 1
+            },
+            "keyword": "When ",
+            "text": "you  run the following command to install Kafka."
+          },
+          {
+            "type": "Step",
+            "location": {
+              "line": 6,
+              "column": 1
+            },
+            "keyword": "Then ",
+            "text": "kafka should start"
+          }
+        ]
+      }
+    ]
+  },
+  "comments": []
+}
